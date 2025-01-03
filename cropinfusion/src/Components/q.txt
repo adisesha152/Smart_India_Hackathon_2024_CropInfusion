@@ -1,0 +1,102 @@
+<div className="mb-4">
+                <label htmlFor="crop" className="form-label fw-bold text-success">Crop Type</label>
+                <select
+                  id="crop"
+                  name="crop"
+                  className="form-select form-control-lg"
+                  value={formData.crop}
+                  onChange={handleChange}
+                >
+                  <option value="paddy">Paddy</option>
+                  <option value="wheat">Wheat</option>
+                  <option value="corn">Corn</option>
+                </select>
+              </div>
+
+              {/* Soil Type */}
+              <div className="mb-4">
+                <label htmlFor="soil" className="form-label fw-bold text-success">Soil Type</label>
+                <select
+                  id="soil"
+                  name="soil"
+                  className="form-select form-control-lg"
+                  value={formData.soil}
+                  onChange={handleChange}
+                >
+                  <option value="clayey-soil">Clayey Soil</option>
+                  <option value="alluvial-soil">Alluvial Soil</option>
+                  <option value="black-cotton">Black Cotton Soil</option>
+                  <option value="red-yellow">Red & Yellow Soil</option>
+                  <option value="saline-alkaline">Saline and Alkaline Soil</option>
+                  <option value="peaty-marshy">Peaty and Marshy Soil</option>
+                </select>
+              </div>
+
+              {/* Growth Stage */}
+              <label className="form-label fw-bold text-success">Growth Stage</label>
+              <div className="mb-4 d-flex">
+                <div className="form-check me-3">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="growthStage"
+                    id="vegetative"
+                    value="vegetative"
+                    checked={formData.growthStage === 'vegetative'}
+                    onChange={handleChange}
+                  />
+                  <label className="form-check-label" htmlFor="vegetative">
+                    Vegetative
+                  </label>
+                </div>
+                <div className="form-check">
+                  <input
+                    className="form-check-input"
+                    type="radio"
+                    name="growthStage"
+                    id="reproductive"
+                    value="reproductive"
+                    checked={formData.growthStage === 'reproductive'}
+                    onChange={handleChange}
+                  />
+                  <label className="form-check-label" htmlFor="reproductive">
+                    Reproductive
+                  </label>
+                </div>
+              </div>
+
+              {/* Location */}
+              <div className="mb-4">
+                <label htmlFor="location" className="form-label fw-bold text-success">Location</label>
+                <div className="d-flex">
+                  <input
+                    type="text"
+                    id="location"
+                    name="location"
+                    className="form-control form-control-lg"
+                    placeholder="Enter location or use map"
+                    value={formData.location}
+                    onChange={handleChange}
+                  />
+                  <button
+                    type="button"
+                    className="btn btn-outline-success ms-2"
+                    onClick={handleCurrentLocation}
+                  >
+                    Use Current Location
+                  </button>
+                </div>
+              </div>
+
+              {/* Image Upload */}
+              <div className="mb-4">
+                <label htmlFor="image" className="form-label fw-bold text-success">Upload Image</label>
+                <input
+                  type="file"
+                  id="image"
+                  name="image"
+                  className="form-control form-control-lg"
+                  accept="image/*"
+                  onChange={handleChange}
+                />
+              </div>

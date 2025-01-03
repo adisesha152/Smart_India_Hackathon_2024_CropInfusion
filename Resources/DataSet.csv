@@ -1,0 +1,51 @@
+temp,humidity,rainfall,soil_moisture,n,p,k,disease
+30,85,300,35,60,30,40,bacterial blight
+29,88,320,38,58,32,42,bacterial blight
+31,83,290,33,55,33,45,bacterial blight
+28,90,310,36,61,31,41,bacterial blight
+30,87,300,34,59,34,43,bacterial blight
+32,85,295,37,57,29,40,bacterial blight
+30,89,305,32,60,30,39,bacterial blight
+29,84,315,39,58,35,42,bacterial blight
+31,88,320,34,60,33,41,bacterial blight
+30,86,300,36,59,30,40,bacterial blight
+27,80,280,28,55,35,45,bacterial leaf streak
+28,82,270,30,57,32,44,bacterial leaf streak
+29,81,285,27,54,36,43,bacterial leaf streak
+27,83,275,29,55,34,46,bacterial leaf streak
+28,80,290,31,58,30,42,bacterial leaf streak
+29,85,295,32,57,31,43,bacterial leaf streak
+28,82,280,28,56,33,44,bacterial leaf streak
+27,81,285,30,55,35,45,bacterial leaf streak
+28,83,275,29,57,32,43,bacterial leaf streak
+29,84,290,31,56,34,46,bacterial leaf streak
+26,90,340,40,65,28,38,foot rot
+25,88,330,42,66,30,37,foot rot
+24,91,350,44,67,29,36,foot rot
+26,89,360,41,66,31,39,foot rot
+25,92,345,39,68,32,38,foot rot
+24,87,355,43,65,30,37,foot rot
+26,90,340,42,67,28,39,foot rot
+25,89,330,41,66,31,38,foot rot
+24,91,350,44,68,29,36,foot rot
+26,88,345,39,67,32,37,foot rot
+28,70,250,30,50,40,45,pecky rice
+27,72,260,32,52,42,46,pecky rice
+29,68,255,33,51,43,44,pecky rice
+28,69,265,34,53,41,47,pecky rice
+29,71,270,35,54,40,46,pecky rice
+29,71,270,35,54,40,46,pecky rice
+28,70,260,33,50,41,45,pecky rice
+27,72,250,34,52,42,47,pecky rice
+29,68,255,32,51,43,44,pecky rice
+28,69,265,35,53,41,46,pecky rice
+25,78,295,37,62,28,39,sheath brown rot
+26,80,300,36,63,30,40,sheath brown rot
+24,79,290,38,64,29,41,sheath brown rot
+25,77,285,37,65,31,39,sheath brown rot
+26,81,305,39,66,32,38,sheath brown rot
+24,79,295,40,62,30,41,sheath brown rot
+25,78,300,37,63,31,40,sheath brown rot
+26,80,285,36,62,29,39,sheath brown rot
+24,82,305,38,64,28,40,sheath brown rot
+25,79,295,37,63,32,41,sheath brown rot
